@@ -54,6 +54,6 @@ Please see the individual sets’ `README.md` files for details on their origins
 
 ---
 
-**Contributions**
+## Contributions
 
-We welcome contributions, suggestions, and feedback. Feel free to open issues, submit pull requests, or contact us if you have questions.
+We welcome contributions to improve this repository. If you have new resources, corrections, or suggestions, please feel free to submit a pull request or contact me directly at csjbartley1@sheffield.ac.uk.
