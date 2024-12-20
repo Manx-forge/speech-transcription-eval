@@ -19,7 +19,7 @@ Manx language resources are extremely rare compared to most languages, which mak
   Help machines understand and accurately translate spoken or written Manx.
 
 - **Developing Spoken Language Identification (SpokenLID):**  
-  Teach systems to recognize Manx, even in mixed-language audio.
+  Teach systems to recognise Manx, even in mixed-language audio.
 
 ## Overview of the Evaluation Sets
 
