@@ -29,13 +29,13 @@ We have grouped our resources into four main sets. Each set focuses on a differe
    [Loayrt Rish (Conversations With)](./Loayrt%20Rish/README.md)
 
 2. **"Skeelyan Vannin" (Stories of Mann)**  
-   (./Skeealyn%20Vannin/README.md)
+   [Skeealyn Vannin (Stories of Mann)](./skeealyn_vannin/README.md)
 
 4. **"Ynsaghey" (Learn)**  
-   (./Ynsaghey/README.md)
+   [Ynsaghey (Learn)](./ynsaghey_resources/README.md)
 
 5. **"Lioarlagh" (Books)**  
-   (./Lioarlagh/Clilstore/README.md)
+   [Lioarlagh (Books)](./lioarlagh_books/clilstore/README.md)
 
 ## How to Use These Sets
 
