@@ -26,16 +26,16 @@ As language technology becomes more advanced, having data to train and test new 
 We have grouped our resources into four main sets. Each set focuses on a different style of Manx speech. For more details, visit each set’s README:
 
 1. **"Loayrt Rish" (Conversations With)**  
-   [View README](Loayrt_Rish/README.md)
+   (./Loayrt%20Rish/README.md)
 
 2. **"Skeelyan Vannin" (Stories of Mann)**  
-   [View README](Skeelyan_Vannin/README.md)
+   (./Skeealyn%20Vannin/README.md)
 
-3. **"Ynsaghey" (Learn)**  
-   [View README](Ynsaghey/README.md)
+4. **"Ynsaghey" (Learn)**  
+   (./Ynsaghey/README.md)
 
-4. **"Lioarlagh" (Books)**  
-   [View README](Lioarlagh/README.md)
+5. **"Lioarlagh" (Books)**  
+   (./Lioarlagh/Clilstore/README.md)
 
 ## How to Use These Sets
 
