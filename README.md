@@ -2,9 +2,6 @@
 
 These evaluation sets are collections of Manx Gaelic speech recordings, along with transcripts (written versions of what is spoken) and, where available, English translations. By providing this data, we hope to support researchers, developers, and language enthusiasts who want to improve tools and technologies related to the Manx language.
 
-**Manx**  
-Manx Gaelic (Gaelg) is a Celtic language spoken on the Isle of Man. Since experiencing a period of decline in recent centuries, the language has benefited from community-led revitalisation efforts and now continues to grow through educational programs, community events, and media. The data published in this repository could not exist without the extensive documentation efforts of community members who have worked to preserve and promote the language in recent years. Their contributions form the foundation upon which this work is built. 
-
 ## Why Make Evaluation Sets?
 
 Manx language resources are extremely rare compared to most languages, which makes building language technologies challenging. These evaluation sets provide essential benchmarks to consistently measure and enhance the performance of various language technologies. They can be used for:
