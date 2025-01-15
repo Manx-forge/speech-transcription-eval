@@ -2,9 +2,6 @@
 
 These evaluation sets are collections of Manx Gaelic speech recordings, along with transcripts (written versions of what is spoken) and, where available, English translations. By providing this data, we hope to support researchers, developers, and language enthusiasts who want to improve tools and technologies related to the Manx language.
 
-**Manx**  
-Manx Gaelic (Gaelg) is a Celtic language spoken on the Isle of Man. Since experiencing a period of decline in recent centuries, the language has benefited from community-led revitalisation efforts and now continues to grow through educational programs, community events, and media. The data published in this repository could not exist without the extensive documentation efforts of community members who have worked to preserve and promote the language in recent years. Their contributions form the foundation upon which this work is built. 
-
 ## Why Make Evaluation Sets?
 
 Manx language resources are extremely rare compared to most languages, which makes building language technologies challenging. These evaluation sets provide essential benchmarks to consistently measure and enhance the performance of various language technologies. They can be used for:
@@ -25,21 +22,18 @@ Manx language resources are extremely rare compared to most languages, which mak
 
 We have grouped our resources into four main sets. Each set focuses on a different style of Manx speech. For more details, visit each set’s README:
 
-1. **"Loayrt Rish" (Conversations With)**  
-   [Loayrt Rish (Conversations With)](./Loayrt%20Rish/README.md)
 
-2. **"Skeelyan Vannin" (Stories of Mann)**  
-   [Skeealyn Vannin (Stories of Mann)](./skeealyn_vannin/README.md)
+1. [Lioarlagh (Books)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Loayrt_Lioarlagh/README.md)
 
-4. **"Ynsaghey" (Learn)**  
-   [Ynsaghey (Learn)](./ynsaghey_resources/README.md)
+2. [Loayrt Rish (Conversations With)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Loayrt_Rish/README.md)
 
-4. **"Lioarlagh" (Books)**  
-   [View README](Lioarlagh/README.md)
+3. [Skeealyn Vannin (Stories of Mann)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Skeealyn_Vannin/README.md)
+
+4. [Ynsaghey (Learn)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Ynsaghey/README.md)
 
 ## Licensing and Source Information
 
-Please see the individual sets’ `README.md` files for details on their origins. All data in this repository has been sourced from publicly available sources, however we strive to respect original content creators and maintain any licensing conditions.
+Please see metadata.csv for information regarding each file. All data in this repository has been sourced from publicly available sources, however we strive to respect original content creators and maintain any licensing conditions.
 
 ## How to Use These Sets
 
