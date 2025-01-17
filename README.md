@@ -23,7 +23,7 @@ Manx language resources are extremely rare compared to most languages, which mak
 We have grouped our resources into four main sets. Each set focuses on a different style of Manx speech. For more details, visit each set’s README:
 
 
-1. [Lioarlagh (Books)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Loayrt_Lioarlagh/README.md)
+1. [Lioarlagh (Books)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Lioarlagh/README.md)
 
 2. [Loayrt Rish (Conversations With)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Loayrt_Rish/README.md)
 
