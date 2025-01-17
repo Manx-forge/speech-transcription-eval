@@ -3704,7 +3704,6 @@ Set,Audio_ID,Source,Description,Speaker,Gender,Duration (s)
 04_Ynsaghey,skeeal 19 03,https://www.learnmanx.com/media//cowag_1/cowag_3/skeeal%2019%2003.mp3,Skeeal 19b,,,64.8
 04_Ynsaghey,skeeal 20 01,https://www.learnmanx.com/media//cowag_1/cowag_3/skeeal%2020%2001.mp3,Skeeal 20a,,,105.22
 04_Ynsaghey,skeeal 20 03,https://www.learnmanx.com/media//cowag_1/cowag_3/skeeal%2020%2003.mp3,Skeeal 20b,,,73.31
-03_Skeealyn_Vannin,Disk 1 Track 1,https://youtube.com/watch?v=zOdn9m_EtAA,Manx language and dialect archive recordings,,,184.2
 03_Skeealyn_Vannin,Disk 1 Track 2,https://youtube.com/watch?v=4ZURy3R7tMc,Manx language and dialect archive recordings,,,272.78
 03_Skeealyn_Vannin,Disk 1 Track 3,https://youtube.com/watch?v=mJWrj6hs0Pk,Manx language and dialect archive recordings,,,267.35
 03_Skeealyn_Vannin,Disk 1 Track 4,https://youtube.com/watch?v=TJD5QDfAs3c,Manx language and dialect archive recordings,,,262.3
@@ -3713,8 +3712,6 @@ Set,Audio_ID,Source,Description,Speaker,Gender,Duration (s)
 03_Skeealyn_Vannin,Disk 1 Track 7,https://youtube.com/watch?v=v5EeVZKqrTw,Manx language and dialect archive recordings,,,263.22
 03_Skeealyn_Vannin,Disk 1 Track 8,https://youtube.com/watch?v=BDjiNOzYL94,Manx language and dialect archive recordings,,,275.88
 03_Skeealyn_Vannin,Disk 1 Track 9,https://youtube.com/watch?v=98YO0Ttmv2c,Manx language and dialect archive recordings,,,257.87
-03_Skeealyn_Vannin,Disk 1 Track 10,https://youtube.com/watch?v=Yw4FK8g-yIc,Manx language and dialect archive recordings,,,267.59
-03_Skeealyn_Vannin,Disk 1 Track 11,https://youtube.com/watch?v=MSH0wGQOr1g,Manx language and dialect archive recordings,,,39.06
 03_Skeealyn_Vannin,Disk 1 Track 12,https://youtube.com/watch?v=hJsTeYVBfTU,Manx language and dialect archive recordings,,,270.26
 03_Skeealyn_Vannin,Disk 1 Track 13,https://youtube.com/watch?v=Z8soZnkKqsk,Manx language and dialect archive recordings,,,265.21
 03_Skeealyn_Vannin,Disk 1 Track 14,https://youtube.com/watch?v=9DyybYsGoOw,Manx language and dialect archive recordings,,,265.21
@@ -3759,18 +3756,6 @@ Set,Audio_ID,Source,Description,Speaker,Gender,Duration (s)
 03_Skeealyn_Vannin,Disk 3 Track 5,https://youtube.com/watch?v=rX-K9rb3bLE,Manx language and dialect archive recordings,,,266.98
 03_Skeealyn_Vannin,Disk 3 Track 6,https://youtube.com/watch?v=6lBa740Bb70,Manx language and dialect archive recordings,,,219.27
 03_Skeealyn_Vannin,Disk 3 Track 7i,https://youtube.com/watch?v=EeEpGOUnOT0,Manx language and dialect archive recordings,,,27.84
-03_Skeealyn_Vannin,Disk 3 Track 7ii,https://youtube.com/watch?v=fBG2JKDDg5U,Manx language and dialect archive recordings,,,113.01
-03_Skeealyn_Vannin,Disk 3 Track 8,https://youtube.com/watch?v=bocN-qfHc0o,Manx language and dialect archive recordings,,,264.23
-03_Skeealyn_Vannin,Disk 3 Track 9,https://youtube.com/watch?v=IDXOeJlsUZk,Manx language and dialect archive recordings,,,267.84
-03_Skeealyn_Vannin,Disk 3 Track 10,https://youtube.com/watch?v=jskJdKdNa80,Manx language and dialect archive recordings,,,222.61
-03_Skeealyn_Vannin,Disk 3 Track 11,https://youtube.com/watch?v=L9nCWqVWgbU,Manx language and dialect archive recordings,,,222.56
-03_Skeealyn_Vannin,Disk 3 Track 12i,https://youtube.com/watch?v=wqolWcoHp3E,Manx language and dialect archive recordings,,,65.06
-03_Skeealyn_Vannin,Disk 3 Track 12ii,https://youtube.com/watch?v=f40b2jySRBU,Manx language and dialect archive recordings,,,169.85
-03_Skeealyn_Vannin,Disk 3 Track 13,https://youtube.com/watch?v=QOcSQGB4gwY,Manx language and dialect archive recordings,,,137.07
-03_Skeealyn_Vannin,Disk 3 Track 14i,https://youtube.com/watch?v=7R43At8HRDE,Manx language and dialect archive recordings,,,183.34
-03_Skeealyn_Vannin,Disk 3 Track 14ii,https://youtube.com/watch?v=fNZM0h0DCGo,Manx language and dialect archive recordings,,,56.05
-03_Skeealyn_Vannin,Disk 3 Track 15i,https://youtube.com/watch?v=gv3L-2bD1Hw,Manx language and dialect archive recordings,,,105.37
-03_Skeealyn_Vannin,Disk 3 Track 15ii,https://youtube.com/watch?v=PHXydL7UHrE,Manx language and dialect archive recordings,,,114.68
 03_Skeealyn_Vannin,Disk 3 Track 16,https://youtube.com/watch?v=oDW81xeBrbg,Manx language and dialect archive recordings,,,217.99
 03_Skeealyn_Vannin,Disk 3 Track 17,https://youtube.com/watch?v=w3sxq4laGnc,Manx language and dialect archive recordings,,,213.95
 03_Skeealyn_Vannin,Disk 4 Track 1,https://youtube.com/watch?v=RyV8WHciTy4,Manx language and dialect archive recordings,,,200.17
@@ -3780,12 +3765,7 @@ Set,Audio_ID,Source,Description,Speaker,Gender,Duration (s)
 03_Skeealyn_Vannin,Disk 4 Track 5,https://youtube.com/watch?v=dyC1ljV6GPw,Manx language and dialect archive recordings,,,800.67
 03_Skeealyn_Vannin,Disk 4 Track 6,https://youtube.com/watch?v=JhNT4BfFeUk,Manx language and dialect archive recordings,,,376.4
 03_Skeealyn_Vannin,Disk 5 Track 1,https://youtube.com/watch?v=VDCzz3pcUt0,Manx language and dialect archive recordings,,,755.19
-03_Skeealyn_Vannin,Disk 5 Track 2,https://youtube.com/watch?v=7QBsDSIYOR8,Manx language and dialect archive recordings,,,525.1
-03_Skeealyn_Vannin,Disk 5 Track 3i,https://youtube.com/watch?v=SxpyxlHlGac,Manx language and dialect archive recordings,,,565.66
-03_Skeealyn_Vannin,Disk 5 Track 3ii,https://youtube.com/watch?v=UCHGBr0O3As,Manx language and dialect archive recordings,,,133.56
 03_Skeealyn_Vannin,Disk 5 Track 4,https://youtube.com/watch?v=wTfzJc53-H8,Manx language and dialect archive recordings,,,818.81
-03_Skeealyn_Vannin,Disk 5 Track 5i,https://youtube.com/watch?v=sbPuROksIYo,Manx language and dialect archive recordings,,,219.21
-03_Skeealyn_Vannin,Disk 5 Track 5ii,https://youtube.com/watch?v=q9lp5aFjfvk,Manx language and dialect archive recordings,,,397.08
 03_Skeealyn_Vannin,Disk 3 Track 5ii,https://youtube.com/watch?v=Df4MKt-e-aw,Manx language and dialect archive recordings,,,212.79
 02_Loayrt_Rish,juan 01,https://youtube.com/watch?v=0ByQUE9s9nU,Conversational Interview,,,240.77
 02_Loayrt_Rish,juan 02,https://youtube.com/watch?v=hlZZI2GbaZg,Conversational Interview,,,277.62
