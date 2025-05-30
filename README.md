@@ -1,8 +1,8 @@
-# Speech Transcription Evaluation Sets for the Manx Language
+# Speech Transcription Data for the Manx Language
 
-These evaluation sets are collections of Manx Gaelic speech recordings, along with transcripts (written versions of what is spoken) and, where available, English translations. By providing this data, we hope to support researchers, developers, and language enthusiasts who want to improve tools and technologies related to the Manx language.
+Loayr is a dataset of Manx Gaelic speech recordings, transcriptions and, where available, English translations. By providing this data, we hope to support researchers, developers, and language enthusiasts who want to improve tools and technologies related to the Manx language.
 
-## Why Make Evaluation Sets?
+## Why Make Datasets?
 
 Manx language resources are extremely rare compared to most languages, which makes building language technologies challenging. These evaluation sets provide essential benchmarks to consistently measure and enhance the performance of various language technologies. They can be used for:
 
@@ -18,18 +18,65 @@ Manx language resources are extremely rare compared to most languages, which mak
 - **Developing Spoken Language Identification (SpokenLID):**  
   Teach systems to recognise Manx, even in mixed-language audio.
 
-## Overview of the Evaluation Sets
+## Statistics
+Loayr consists of around 20 hours of speech-text data, organised in three subsets. These are:
 
-We have grouped our resources into four main sets. Each set focuses on a different style of Manx speech. For more details, visit each set’s README:
+1. [**train_unaligned**]  
+   - **Description:** Long form audio files. These will eventually be segmented into smaller sentence/utterance like units once the audio can be recognised and transcribed automatically.
+
+1. [**train_spkn_dict**]  
+   - **Description:** Pre-aligned short utterances from a spoken dictionary. Designed as a short training set to teach various models how to recognise Manx.
+
+1. [**test**]  
+   - **Description:** a one-hour test set proportionally sampled from train_unaligned and manually segmented. Contains 'ground-truth' examples designed to test the capabilities of various models.
+
+![Loayr overview](images/stats.JPG)
+
+## Where Does the Data Come From?
+
+The evaluation data is organized into five primary sets, each reflecting a distinct style of spoken Manx. For detailed information about each set, refer to their individual README files:
+
+1. [**Lioarlagh** (Books)]  
+   - **Style:** Read-speech  
+   - **Variety:** Traditional  
+   - **Total Duration:** 4.82 hours (train_unaligned), 0.28 hours (test)  
+   - **English Translations:** Small subset (~22 minutes)  
+   - **Eval Use Cases:** ASR, TTS, S2T (Subset), MT (Subset), SpokenLID  
+   - **Description:** Audiobook-style recordings featuring readings of religious texts and folklore. Speech is professionally recorded and generally high-quality. Most texts are transcribed in Manx, with limited English translation available.
+
+2. [**Loayrt Rish** (Conversations With)]  
+   - **Style:** Conversation/interview  
+   - **Variety:** Revived  
+   - **Total Duration:** 4.36 hours (train_unaligned), 0.27 hours (test)  
+   - **English Translations:** Yes  
+   - **Eval Use Cases:** ASR, TTS, S2T, MT, SpokenLID  
+   - **Description:** Interviews and spontaneous dialogues from various YouTube playlists. Informal speech with occasional overlapping, hesitations, and background noise. Fully transcribed and translated.
+
+3. [**Skeealyn Vannin** (Stories of Mann)]  
+   - **Style:** Conversation/interview  
+   - **Variety:** Traditional  
+   - **Total Duration:** 3.60 hours (train_unaligned), 0.17 hours (test)  
+   - **English Translations:** Yes  
+   - **Eval Use Cases:** ASR, TTS, MT, SpokenLID  
+   - **Description:** Historical interviews from 1948 featuring native speakers. Audio quality varies due to archival recording methods. Contains speaker overlap and some English. Transcriptions are currently being cleaned and digitized.
+
+4. [**Ynsaghey** (Learn)]  
+   - **Style:** Read-speech  
+   - **Variety:** Revived  
+   - **Total Duration:** 5.53 hours (train_unaligned), 0.28 hours (test)  
+   - **English Translations:** Subset (~8 hours 7 minutes)  
+   - **Eval Use Cases:** ASR, TTS, S2T (Subset), MT (Subset), SpokenLID  
+   - **Description:** A mix of instructional content, including vocabulary lists, cultural materials, and spoken dictionaries. Audio is clear and focused on learner-friendly articulation. Most is transcribed and translated.
+
+5. [**Abbyr** (Say)]  
+   - **Style:** Spoken dictionary  
+   - **Variety:** Revived  
+   - **Total Duration:** 0.53 hours (train_unaligned), 1.18 hours (train_spkn_dict)  
+   - **English Translations:** Yes  
+   - **Eval Use Cases:** ASR, TTS, SpokenLID  
+   - **Description:** A spoken dictionary derived from educational resources on LearnManx.com. Short utterances with clear pronunciation, typically consisting of isolated words or phrases. Ideal for modeling pronunciation and phoneme-level alignment.
 
 
-1. [Lioarlagh (Books)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Lioarlagh/README.md)
-
-2. [Loayrt Rish (Conversations With)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Loayrt_Rish/README.md)
-
-3. [Skeealyn Vannin (Stories of Mann)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Skeealyn_Vannin/README.md)
-
-4. [Ynsaghey (Learn)](https://github.com/Manx-Language/manx-speech-transcription-eval/blob/main/Ynsaghey/README.md)
 
 ## Licensing and Source Information
 
@@ -44,7 +91,6 @@ Clone or download this repository to access descriptions and transcripts. The au
 This repository is a work in progress. Here are some areas where contributions would be especially valuable:
 
 * Additional Resources: Contributions of Manx text or audio recordings. Speech transcription data is preferable but unlabelled data can also prove useful.
-* Formatting: Some transcriptions exist only in PDF format and need to be converted into machine-readable text formats.
 * Correcting Errors: Whilst every effort had been made to ensure that language data is correct, some errors may persist.
 * Testing and Feedback: Testing various models against these datasets for continuous improvement, of the models themselves but also of these data.
 
