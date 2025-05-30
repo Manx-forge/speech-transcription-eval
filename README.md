@@ -21,16 +21,18 @@ Manx language resources are extremely rare compared to most languages, which mak
 ## Statistics
 Loayr consists of around 20 hours of speech-text data, organised in three subsets. These are:
 
-1. [**train_unaligned**]  
+1. **train_unaligned** 
    - **Description:** Long form audio files. These will eventually be segmented into smaller sentence/utterance like units once the audio can be recognised and transcribed automatically.
 
-1. [**train_spkn_dict**]  
+2. **train_spkn_dict**  
    - **Description:** Pre-aligned short utterances from a spoken dictionary. Designed as a short training set to teach various models how to recognise Manx.
 
-1. [**test**]  
+3. **test**  
    - **Description:** a one-hour test set proportionally sampled from train_unaligned and manually segmented. Contains 'ground-truth' examples designed to test the capabilities of various models.
 
-![Loayr overview](images/stats.JPG)
+<p align="center">
+  <img src="images/stats.JPG" alt="Loayr overview" width="600">
+</p>
 
 ## Where Does the Data Come From?
 
@@ -44,7 +46,7 @@ The evaluation data is organized into five primary sets, each reflecting a disti
    - **Eval Use Cases:** ASR, TTS, S2T (Subset), MT (Subset), SpokenLID  
    - **Description:** Audiobook-style recordings featuring readings of religious texts and folklore. Speech is professionally recorded and generally high-quality. Most texts are transcribed in Manx, with limited English translation available.
 
-2. [**Loayrt Rish** (Conversations With)]  
+2. **Loayrt Rish** (Conversations With)  
    - **Style:** Conversation/interview  
    - **Variety:** Revived  
    - **Total Duration:** 4.36 hours (train_unaligned), 0.27 hours (test)  
@@ -52,7 +54,7 @@ The evaluation data is organized into five primary sets, each reflecting a disti
    - **Eval Use Cases:** ASR, TTS, S2T, MT, SpokenLID  
    - **Description:** Interviews and spontaneous dialogues from various YouTube playlists. Informal speech with occasional overlapping, hesitations, and background noise. Fully transcribed and translated.
 
-3. [**Skeealyn Vannin** (Stories of Mann)]  
+3. **Skeealyn Vannin** (Stories of Mann)  
    - **Style:** Conversation/interview  
    - **Variety:** Traditional  
    - **Total Duration:** 3.60 hours (train_unaligned), 0.17 hours (test)  
@@ -60,15 +62,15 @@ The evaluation data is organized into five primary sets, each reflecting a disti
    - **Eval Use Cases:** ASR, TTS, MT, SpokenLID  
    - **Description:** Historical interviews from 1948 featuring native speakers. Audio quality varies due to archival recording methods. Contains speaker overlap and some English. Transcriptions are currently being cleaned and digitized.
 
-4. [**Ynsaghey** (Learn)]  
+4. **Ynsaghey** (Learn)  
    - **Style:** Read-speech  
    - **Variety:** Revived  
    - **Total Duration:** 5.53 hours (train_unaligned), 0.28 hours (test)  
-   - **English Translations:** Subset (~8 hours 7 minutes)  
+   - **English Translations:** Yes 
    - **Eval Use Cases:** ASR, TTS, S2T (Subset), MT (Subset), SpokenLID  
    - **Description:** A mix of instructional content, including vocabulary lists, cultural materials, and spoken dictionaries. Audio is clear and focused on learner-friendly articulation. Most is transcribed and translated.
 
-5. [**Abbyr** (Say)]  
+5. **Abbyr** (Say)  
    - **Style:** Spoken dictionary  
    - **Variety:** Revived  
    - **Total Duration:** 0.53 hours (train_unaligned), 1.18 hours (train_spkn_dict)  
